@@ -1,8 +1,12 @@
-INSERT INTO showletcatalog(code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked) VALUES ('jpsharewith', '<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO showletcatalog(code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES (
+'entando-showlet-sharewith', 
+'<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Share With...</property>
 <property key="it">Condividi con...</property>
-</properties>', null, 'jpsharewith', null, null, 1);
+</properties>', 
+NULL, NULL, NULL, NULL, 1, NULL);
+
 
 
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('jpsharewith_TITLE', 'it', 'Condividi con...');
