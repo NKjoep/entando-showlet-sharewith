@@ -14,8 +14,8 @@ var entando-showlet-sharewith_imgURL='<wp:resourceURL />static/img/entando-showl
 <wp:headInfo type="JS" info="entando-showlet-sharewith/sharewith.js" />
 
 <div class="entando-showlet-sharewith">
-	<p><wp:i18n key="jpsharewith_TITLE" /></p>
+	<p><wp:i18n key="ESSW_TITLE" /></p>
 	<p class="entando-showlet-sharewith-buttons">
-		<noscript><wp:i18n key="jpsharewith_NOSCRIPT" /></noscript>
+		<noscript><wp:i18n key="ESSW_NOSCRIPT" /></noscript>
 	</p>
 </div>
